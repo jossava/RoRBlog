@@ -1,5 +1,5 @@
 # Change these
-server '104.236.58.183', port: 80, roles: [:web, :app, :db], primary: true
+server '104.236.58.183', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/jossava/RoRBlog.git'
 set :application,     'blog'
