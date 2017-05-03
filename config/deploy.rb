@@ -2,7 +2,7 @@
 server '104.236.58.183', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/jossava/RoRBlog.git'
-set :application,     'blog'
+set :application,     'myblog'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
